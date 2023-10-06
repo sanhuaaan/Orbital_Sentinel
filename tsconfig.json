@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "outDir": "./public/js",
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [
+        "lib/p2.d.ts",
+        "lib/phaser.d.ts",
+        "lib/pixi.d.ts",
+        "lib/ScreenShake.d.ts",
+        "src/app.ts",
+        "src/enemy.ts",
+        "src/game_play.ts",
+        "src/game_start.ts",
+        "src/game.ts",
+        "src/item.ts",
+        "src/player.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
